@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A82FA38D1D9264AA003150C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A82FA38C1D9264AA003150C3 /* main.m */; };
+		A82FA3901D9264AA003150C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A82FA38F1D9264AA003150C3 /* AppDelegate.m */; };
+		A82FA3961D9264AA003150C3 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A82FA3951D9264AA003150C3 /* SecondViewController.m */; };
+		A82FA3991D9264AA003150C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A82FA3971D9264AA003150C3 /* Main.storyboard */; };
+		A82FA39B1D9264AA003150C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A82FA39A1D9264AA003150C3 /* Assets.xcassets */; };
+		A82FA39E1D9264AA003150C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A82FA39C1D9264AA003150C3 /* LaunchScreen.storyboard */; };
+		A82FA3AA1D926B3D003150C3 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A82FA3A91D926B3D003150C3 /* MainViewController.m */; };
+		A82FA3B01D926FBF003150C3 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A82FA3AF1D926FBF003150C3 /* FirstViewController.m */; };
+		A82FA3B31D927D73003150C3 /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A82FA3B21D927D73003150C3 /* ThreeViewController.m */; };
+		A82FA3B61D9281F5003150C3 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A82FA3B51D9281F5003150C3 /* DetailViewController.m */; };
+		A851F72E1D9378DC00862322 /* icon1.png in Resources */ = {isa = PBXBuildFile; fileRef = A851F72D1D9378DC00862322 /* icon1.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A82FA3881D9264AA003150C3 /* TJTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TJTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A82FA38C1D9264AA003150C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A82FA38E1D9264AA003150C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A82FA38F1D9264AA003150C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A82FA3941D9264AA003150C3 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		A82FA3951D9264AA003150C3 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		A82FA3981D9264AA003150C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A82FA39A1D9264AA003150C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A82FA39D1D9264AA003150C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A82FA39F1D9264AA003150C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A82FA3A81D926B3D003150C3 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		A82FA3A91D926B3D003150C3 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		A82FA3AE1D926FBF003150C3 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		A82FA3AF1D926FBF003150C3 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		A82FA3B11D927D73003150C3 /* ThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
+		A82FA3B21D927D73003150C3 /* ThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
+		A82FA3B41D9281F5003150C3 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		A82FA3B51D9281F5003150C3 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		A851F72D1D9378DC00862322 /* icon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon1.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A82FA3851D9264AA003150C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A82FA37F1D9264AA003150C3 = {
+			isa = PBXGroup;
+			children = (
+				A82FA38A1D9264AA003150C3 /* TJTouch */,
+				A82FA3891D9264AA003150C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A82FA3891D9264AA003150C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A82FA3881D9264AA003150C3 /* TJTouch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A82FA38A1D9264AA003150C3 /* TJTouch */ = {
+			isa = PBXGroup;
+			children = (
+				A851F72C1D93760700862322 /* TJTouch */,
+				A82FA38E1D9264AA003150C3 /* AppDelegate.h */,
+				A82FA38F1D9264AA003150C3 /* AppDelegate.m */,
+				A82FA3971D9264AA003150C3 /* Main.storyboard */,
+				A82FA39A1D9264AA003150C3 /* Assets.xcassets */,
+				A82FA39C1D9264AA003150C3 /* LaunchScreen.storyboard */,
+				A82FA39F1D9264AA003150C3 /* Info.plist */,
+				A82FA38B1D9264AA003150C3 /* Supporting Files */,
+			);
+			path = TJTouch;
+			sourceTree = "<group>";
+		};
+		A82FA38B1D9264AA003150C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A82FA38C1D9264AA003150C3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A851F72C1D93760700862322 /* TJTouch */ = {
+			isa = PBXGroup;
+			children = (
+				A851F72D1D9378DC00862322 /* icon1.png */,
+				A82FA3A81D926B3D003150C3 /* MainViewController.h */,
+				A82FA3A91D926B3D003150C3 /* MainViewController.m */,
+				A82FA3AE1D926FBF003150C3 /* FirstViewController.h */,
+				A82FA3AF1D926FBF003150C3 /* FirstViewController.m */,
+				A82FA3941D9264AA003150C3 /* SecondViewController.h */,
+				A82FA3951D9264AA003150C3 /* SecondViewController.m */,
+				A82FA3B11D927D73003150C3 /* ThreeViewController.h */,
+				A82FA3B21D927D73003150C3 /* ThreeViewController.m */,
+				A82FA3B41D9281F5003150C3 /* DetailViewController.h */,
+				A82FA3B51D9281F5003150C3 /* DetailViewController.m */,
+			);
+			name = TJTouch;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A82FA3871D9264AA003150C3 /* TJTouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A82FA3A21D9264AA003150C3 /* Build configuration list for PBXNativeTarget "TJTouch" */;
+			buildPhases = (
+				A82FA3841D9264AA003150C3 /* Sources */,
+				A82FA3851D9264AA003150C3 /* Frameworks */,
+				A82FA3861D9264AA003150C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TJTouch;
+			productName = TJTouch;
+			productReference = A82FA3881D9264AA003150C3 /* TJTouch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A82FA3801D9264AA003150C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = tao;
+				TargetAttributes = {
+					A82FA3871D9264AA003150C3 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 972X3T23HN;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A82FA3831D9264AA003150C3 /* Build configuration list for PBXProject "TJTouch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A82FA37F1D9264AA003150C3;
+			productRefGroup = A82FA3891D9264AA003150C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A82FA3871D9264AA003150C3 /* TJTouch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A82FA3861D9264AA003150C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A82FA39E1D9264AA003150C3 /* LaunchScreen.storyboard in Resources */,
+				A82FA39B1D9264AA003150C3 /* Assets.xcassets in Resources */,
+				A851F72E1D9378DC00862322 /* icon1.png in Resources */,
+				A82FA3991D9264AA003150C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A82FA3841D9264AA003150C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A82FA3961D9264AA003150C3 /* SecondViewController.m in Sources */,
+				A82FA3B01D926FBF003150C3 /* FirstViewController.m in Sources */,
+				A82FA3901D9264AA003150C3 /* AppDelegate.m in Sources */,
+				A82FA3B31D927D73003150C3 /* ThreeViewController.m in Sources */,
+				A82FA3AA1D926B3D003150C3 /* MainViewController.m in Sources */,
+				A82FA38D1D9264AA003150C3 /* main.m in Sources */,
+				A82FA3B61D9281F5003150C3 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A82FA3971D9264AA003150C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A82FA3981D9264AA003150C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A82FA39C1D9264AA003150C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A82FA39D1D9264AA003150C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A82FA3A01D9264AA003150C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A82FA3A11D9264AA003150C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A82FA3A31D9264AA003150C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 972X3T23HN;
+				INFOPLIST_FILE = TJTouch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tjzl.TJTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A82FA3A41D9264AA003150C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 972X3T23HN;
+				INFOPLIST_FILE = TJTouch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tjzl.TJTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A82FA3831D9264AA003150C3 /* Build configuration list for PBXProject "TJTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A82FA3A01D9264AA003150C3 /* Debug */,
+				A82FA3A11D9264AA003150C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A82FA3A21D9264AA003150C3 /* Build configuration list for PBXNativeTarget "TJTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A82FA3A31D9264AA003150C3 /* Debug */,
+				A82FA3A41D9264AA003150C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A82FA3801D9264AA003150C3 /* Project object */;
+}
