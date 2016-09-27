@@ -11,8 +11,8 @@
 
 @protocol DetailViewControllerDelegate <NSObject>
 @optional
-// 删除按钮点击
-- (void)detailViewController:(DetailViewController *)detailVC DidSelectedDeleteItem:(NSString *)navTitle;
+// 按钮点击
+- (void)detailViewController:(DetailViewController *)detailVC DidSelectedItem:(NSString *)navTitle;
 @required
 // 返回按钮点击
 - (void)detailViewControllerDidSelectedBackItem:(DetailViewController *)detailVC;

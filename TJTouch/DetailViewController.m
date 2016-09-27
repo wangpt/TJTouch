@@ -34,8 +34,8 @@
     
     // 生成UIPreviewAction
     UIPreviewAction *action1 = [UIPreviewAction actionWithTitle:@"事件 1" style:UIPreviewActionStyleDefault handler:^(UIPreviewAction * _Nonnull action, UIViewController * _Nonnull previewViewController) {
-        if ([self.delegate respondsToSelector:@selector(detailViewController:DidSelectedDeleteItem:)]) {
-            [self.delegate detailViewController:self DidSelectedDeleteItem:self.title];
+        if ([self.delegate respondsToSelector:@selector(detailViewController:DidSelectedItem:)]) {
+            [self.delegate detailViewController:self DidSelectedItem:self.title];
         }
     }];
     
