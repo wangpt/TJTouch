@@ -17,7 +17,6 @@
 		A82FA3B01D926FBF003150C3 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A82FA3AF1D926FBF003150C3 /* FirstViewController.m */; };
 		A82FA3B31D927D73003150C3 /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A82FA3B21D927D73003150C3 /* ThreeViewController.m */; };
 		A82FA3B61D9281F5003150C3 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A82FA3B51D9281F5003150C3 /* DetailViewController.m */; };
-		A851F72E1D9378DC00862322 /* icon1.png in Resources */ = {isa = PBXBuildFile; fileRef = A851F72D1D9378DC00862322 /* icon1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,7 +38,6 @@
 		A82FA3B21D927D73003150C3 /* ThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
 		A82FA3B41D9281F5003150C3 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		A82FA3B51D9281F5003150C3 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		A851F72D1D9378DC00862322 /* icon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +93,6 @@
 		A851F72C1D93760700862322 /* TJTouch */ = {
 			isa = PBXGroup;
 			children = (
-				A851F72D1D9378DC00862322 /* icon1.png */,
 				A82FA3A81D926B3D003150C3 /* MainViewController.h */,
 				A82FA3A91D926B3D003150C3 /* MainViewController.m */,
 				A82FA3AE1D926FBF003150C3 /* FirstViewController.h */,
@@ -171,7 +168,6 @@
 			files = (
 				A82FA39E1D9264AA003150C3 /* LaunchScreen.storyboard in Resources */,
 				A82FA39B1D9264AA003150C3 /* Assets.xcassets in Resources */,
-				A851F72E1D9378DC00862322 /* icon1.png in Resources */,
 				A82FA3991D9264AA003150C3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

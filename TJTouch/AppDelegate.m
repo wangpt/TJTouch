@@ -61,40 +61,57 @@
 
 - (void)quickActionWithShortcutItem:(UIApplicationShortcutItem *)shortcutItem
 {
-        UIWindow *sharedWindow= [[[UIApplication sharedApplication] delegate] window];
-
-        if ([shortcutItem.type isEqualToString:@"com.tjzl.first"]) {
-            UINavigationController *nav=(UINavigationController *)sharedWindow.rootViewController;
-            MainViewController *mainView = nav.viewControllers[0];
-            [mainView setSelectedIndex:0];
-            DetailViewController *childVC =[DetailViewController new];
-            [nav pushViewController:childVC animated:YES];
-        }else if ([shortcutItem.type isEqualToString:@"com.tjzl.second"]){
-            UINavigationController *nav=(UINavigationController *)sharedWindow.rootViewController;
-            MainViewController *mainView = nav.viewControllers[0];
-            [mainView setSelectedIndex:1];
-        }else{
-            UINavigationController *nav=(UINavigationController *)sharedWindow.rootViewController;
-            MainViewController *mainView = nav.viewControllers[0];
-            [mainView setSelectedIndex:2];
-            DetailViewController *childVC =[DetailViewController new];
-            [nav pushViewController:childVC animated:YES];
-        }
+    [self openControllerWithItemType:shortcutItem.type];
 
     
 }
 
+
+#pragma mark - 跳转页面
+- (void)openControllerWithItemType:(NSString *)type{
+    UIWindow *sharedWindow= [[[UIApplication sharedApplication] delegate] window];
+    if ([type isEqualToString:@"com.tjzl.updata"]) {
+        UINavigationController *nav=(UINavigationController *)sharedWindow.rootViewController;
+        MainViewController *mainView = nav.viewControllers[0];
+        [mainView setSelectedIndex:0];
+        DetailViewController *childVC =[DetailViewController new];
+        [nav pushViewController:childVC animated:YES];
+    }else if ([type isEqualToString:@"com.tjzl.video"]){
+        UINavigationController *nav=(UINavigationController *)sharedWindow.rootViewController;
+        MainViewController *mainView = nav.viewControllers[0];
+        [mainView setSelectedIndex:1];
+
+    }else if ([type isEqualToString:@"com.tjzl.duty"]){
+        UINavigationController *nav=(UINavigationController *)sharedWindow.rootViewController;
+        MainViewController *mainView = nav.viewControllers[0];
+        [mainView setSelectedIndex:2];
+        DetailViewController *childVC =[DetailViewController new];
+        [nav pushViewController:childVC animated:YES];
+    }else if ([type isEqualToString:@"com.tjzl.task"]){
+        UINavigationController *nav=(UINavigationController *)sharedWindow.rootViewController;
+        MainViewController *mainView = nav.viewControllers[0];
+        [mainView setSelectedIndex:2];
+        DetailViewController *childVC =[DetailViewController new];
+        [nav pushViewController:childVC animated:YES];
+    }
+    
+    
+    
+}
+
+
 - (void)create3DTouchShotItems {
     //创建快捷item的icon UIApplicationShortcutItemIconFile
-    UIApplicationShortcutIcon *icon1 = [UIApplicationShortcutIcon iconWithTemplateImageName:@"icon1"];
-    UIApplicationShortcutIcon *icon2 = [UIApplicationShortcutIcon iconWithType:UIApplicationShortcutIconTypeAudio];
-    //创建快捷item的userinfo UIApplicationShortcutItemUserInfo
-    NSDictionary *info1 = @{@"url":@"url1"};
-    NSDictionary *info2 = @{@"url":@"url2"};
+    UIApplicationShortcutIcon *icon1 = [UIApplicationShortcutIcon iconWithTemplateImageName:@"main_3dtouch_updata"];
+    UIApplicationShortcutIcon *icon2 = [UIApplicationShortcutIcon iconWithTemplateImageName:@"main_3dtouch_video"];
+    UIApplicationShortcutIcon *icon3 = [UIApplicationShortcutIcon iconWithTemplateImageName:@"main_3dtouch_duty"];
+    UIApplicationShortcutIcon *icon4 = [UIApplicationShortcutIcon iconWithTemplateImageName:@"main_3dtouch_task"];
     //创建ShortcutItem
-    UIMutableApplicationShortcutItem *item1 = [[UIMutableApplicationShortcutItem alloc]initWithType:@"com.tjzl.four" localizedTitle:@"four" localizedSubtitle:nil icon:icon1 userInfo:info1];
-    UIMutableApplicationShortcutItem *item3 = [[UIMutableApplicationShortcutItem alloc]initWithType:@"com.tjzl.five" localizedTitle:@"five" localizedSubtitle:nil icon:icon2 userInfo:info2];
-    NSArray *items = @[item1, item3];
+    UIMutableApplicationShortcutItem *item1 = [[UIMutableApplicationShortcutItem alloc]initWithType:@"com.tjzl.updata" localizedTitle:@"信息上报" localizedSubtitle:nil icon:icon1 userInfo:nil];
+    UIMutableApplicationShortcutItem *item2 = [[UIMutableApplicationShortcutItem alloc]initWithType:@"com.tjzl.video" localizedTitle:@"视频会议" localizedSubtitle:nil icon:icon2 userInfo:nil];
+    UIMutableApplicationShortcutItem *item3 = [[UIMutableApplicationShortcutItem alloc]initWithType:@"com.tjzl.duty" localizedTitle:@"值班人员" localizedSubtitle:nil icon:icon3 userInfo:nil];
+    UIMutableApplicationShortcutItem *item4 = [[UIMutableApplicationShortcutItem alloc]initWithType:@"com.tjzl.task" localizedTitle:@"我的任务" localizedSubtitle:nil icon:icon4 userInfo:nil];
+    NSArray *items = @[item1,item2,item3,item4];
     [UIApplication sharedApplication].shortcutItems = items;
 }
 
