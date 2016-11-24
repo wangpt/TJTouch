@@ -28,9 +28,9 @@
     UINavigationController *mainNav = [[UINavigationController alloc] initWithRootViewController:mainView];
     self.window.rootViewController =mainNav;
     [self.window makeKeyAndVisible];
-//    [self create3DTouchShotItems];追加
     /*3D Touch*/
     if ([[UIDevice currentDevice].systemVersion floatValue] >= 9.0) {//判定系统版本
+        [self create3DTouchShotItems];//追加
         UIApplicationShortcutItem *shortcutItem = [launchOptions objectForKeyedSubscript:UIApplicationLaunchOptionsShortcutItemKey];
         
         if(shortcutItem)
@@ -87,7 +87,7 @@
 - (void)create3DTouchShotItems {
     //创建快捷item的icon UIApplicationShortcutItemIconFile
     UIApplicationShortcutIcon *icon1 = [UIApplicationShortcutIcon iconWithTemplateImageName:@"icon1"];
-    UIApplicationShortcutIcon *icon2 = [UIApplicationShortcutIcon iconWithType:UIApplicationShortcutIconTypeAdd];
+    UIApplicationShortcutIcon *icon2 = [UIApplicationShortcutIcon iconWithType:UIApplicationShortcutIconTypeAudio];
     //创建快捷item的userinfo UIApplicationShortcutItemUserInfo
     NSDictionary *info1 = @{@"url":@"url1"};
     NSDictionary *info2 = @{@"url":@"url2"};
